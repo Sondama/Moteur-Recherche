@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="moteur" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/moteur" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/moteur" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="Analyseur.cpp" />
+		<Unit filename="Analyseur.h" />
+		<Unit filename="AnalyseurMap.cpp" />
+		<Unit filename="AnalyseurMap.h" />
+		<Unit filename="AnalyseurVector.cpp" />
+		<Unit filename="AnalyseurVector.h" />
+		<Unit filename="Bibliotheque.cpp" />
+		<Unit filename="Bibliotheque.h" />
+		<Unit filename="Fichier.cpp" />
+		<Unit filename="Fichier.h" />
+		<Unit filename="Index.cpp" />
+		<Unit filename="Index.h" />
+		<Unit filename="IndexMap.cpp" />
+		<Unit filename="IndexMap.h" />
+		<Unit filename="IndexVector.cpp" />
+		<Unit filename="IndexVector.h" />
+		<Unit filename="Moteur.cpp" />
+		<Unit filename="Moteur.h" />
+		<Unit filename="Occurence.cpp" />
+		<Unit filename="Occurence.h" />
+		<Unit filename="Ordonnanceur.cpp" />
+		<Unit filename="Ordonnanceur.h" />
+		<Unit filename="OrdonnanceurBinaire.cpp" />
+		<Unit filename="OrdonnanceurBinaire.h" />
+		<Unit filename="OrdonnanceurOcc.cpp" />
+		<Unit filename="OrdonnanceurOcc.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

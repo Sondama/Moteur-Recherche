@@ -1,0 +1,165 @@
+# depslib dependency file v1.0
+1591620959 source:c:\users\user\desktop\moteur\main.cpp
+	<iostream>
+	"Moteur.h"
+	"AnalyseurVector.h"
+	"AnalyseurMap.h"
+	"IndexVector.h"
+	"IndexMap.h"
+	"OrdonnanceurBinaire.h"
+	"OrdonnanceurOcc.h"
+	<cstdlib>
+	<cstdio>
+	<map>
+	<cstdio>
+	<ctime>
+
+1590946004 c:\users\user\desktop\moteur\occurence.h
+	<string>
+
+1591147103 source:c:\users\user\desktop\moteur\occurence.cpp
+	"Occurence.h"
+	<string>
+
+1591618289 source:c:\users\user\desktop\moteur\analyseur.cpp
+	"Analyseur.h"
+
+1591618289 c:\users\user\desktop\moteur\analyseur.h
+	<string>
+	<vector>
+	"Occurence.h"
+
+1591618436 source:c:\users\user\desktop\moteur\analyseurvector.cpp
+	"AnalyseurVector.h"
+	<string>
+	<vector>
+
+1591618447 c:\users\user\desktop\moteur\analyseurvector.h
+	<string>
+	<vector>
+	"Analyseur.h"
+
+1591618374 source:c:\users\user\desktop\moteur\analyseurmap.cpp
+	"AnalyseurMap.h"
+	<string>
+	<vector>
+	<map>
+	<utility>
+
+1591618374 c:\users\user\desktop\moteur\analyseurmap.h
+	<string>
+	<vector>
+	"Analyseur.h"
+
+1591486285 source:c:\users\user\desktop\moteur\fichier.cpp
+	<iostream>
+	"Fichier.h"
+	<string>
+	<vector>
+	<fstream>
+
+1591486285 c:\users\user\desktop\moteur\fichier.h
+	<string>
+	<vector>
+	"Occurence.h"
+	"Analyseur.h"
+
+1591618646 source:c:\users\user\desktop\moteur\indexmap.cpp
+	"IndexMap.h"
+	<vector>
+	<fstream>
+	<iostream>
+	<map>
+	<utility>
+
+1591618646 source:c:\users\user\desktop\moteur\indexvector.cpp
+	"IndexVector.h"
+	<vector>
+	<fstream>
+	<iostream>
+
+1591618646 source:c:\users\user\desktop\moteur\index.cpp
+	<iostream>
+	"Index.h"
+	<string>
+	<vector>
+	<fstream>
+	<utility>
+	<sstream>
+
+1591618646 c:\users\user\desktop\moteur\index.h
+	<string>
+	<vector>
+	"Occurence.h"
+	"Fichier.h"
+
+1591618646 c:\users\user\desktop\moteur\indexvector.h
+	"Index.h"
+
+1591618646 c:\users\user\desktop\moteur\indexmap.h
+	"Index.h"
+
+1591619244 source:c:\users\user\desktop\moteur\bibliotheque.cpp
+	"Bibliotheque.h"
+	<vector>
+	<fstream>
+	<iostream>
+
+1591619151 c:\users\user\desktop\moteur\bibliotheque.h
+	<string>
+	"Fichier.h"
+	"Index.h"
+
+1591146844 source:c:\users\user\desktop\moteur\ordonnanceurocc.cpp
+	"OrdonnanceurOcc.h"
+	<string>
+	<vector>
+	<map>
+	<utility>
+
+1590975455 source:c:\users\user\desktop\moteur\ordonnanceur.cpp
+	"Ordonnanceur.h"
+
+1591122820 c:\users\user\desktop\moteur\ordonnanceur.h
+	<vector>
+	<map>
+	<string>
+	"Occurence.h"
+
+1591146859 source:c:\users\user\desktop\moteur\ordonnanceurbinaire.cpp
+	"OrdonnanceurBinaire.h"
+	<string>
+	<vector>
+	<map>
+	<utility>
+
+1591122820 c:\users\user\desktop\moteur\ordonnanceurbinaire.h
+	"Ordonnanceur.h"
+	"Occurence.h"
+	<vector>
+	<map>
+	<string>
+
+1591122820 c:\users\user\desktop\moteur\ordonnanceurocc.h
+	"Ordonnanceur.h"
+	"Occurence.h"
+	<vector>
+	<map>
+	<string>
+
+1591583779 source:c:\users\user\desktop\moteur\moteur.cpp
+	"Ordonnanceur.h"
+	"Bibliotheque.h"
+	"Index.h"
+	"Analyseur.h"
+	"Moteur.h"
+	<string>
+	<vector>
+	<iostream>
+
+1591583767 c:\users\user\desktop\moteur\moteur.h
+	"Bibliotheque.h"
+	"Ordonnanceur.h"
+	<map>
+	<string>
+
